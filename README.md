@@ -29,6 +29,9 @@ Can also be run from the command line (install -g if you want it globally):
     -i, --id       Pivotal project id
 ```
 
+If you don't feel like passing in token and project id every time you can set the *PIVOTAL_TOKEN* and *PIVOTAL_PROJECT_ID*
+environment variables before running the command.
+
 
 ### Testing
 ```bash
