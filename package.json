@@ -1,0 +1,31 @@
+{
+  "author": "Gustav Rydstedt <gustav.rydstedt@gmail.com> (https://twitter.com/swedishgoose)",
+  "name": "pivotal-deliver",
+  "description": "Delivers your finished Pivotal tasks",
+  "version": "0.1.0",
+  "homepage": "https://github.com/rydstedt/pivotal-deliver",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/grydstedt/pivotal-deliver.git"
+  },
+  "main": "./lib/index.js",
+  "scripts": {
+    "test": "make test"
+  },
+  "dependencies": {
+    "async": "~0.2.9",
+    "request": "~2.27.0",
+    "underscore": "~1.5.2",
+    "commander": "~2.0.0"
+  },
+  "devDependencies": {
+    "codebux": "~0.1.2",
+    "jshint-tap-simple": "~1.0.2",
+    "tap": "~0.3.1"
+  },
+  "optionalDependencies": {},
+  "engines": {
+    "node": ">=0.8"
+  }
+}
