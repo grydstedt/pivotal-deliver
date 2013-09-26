@@ -1,6 +1,12 @@
 ## pivotal-deliver
 #### Delivers your finished Pivotal tasks
 
+Meant to be run in some sort of deployment service.
+
+* Pulls your Pivotal stories marked "Finished"
+* Checks your git log for those story ids
+* Sets the commited stories to "Delivered" and adds a note to the story.
+
 ### Installation
 ```bash
 npm install pivotal-deliver
