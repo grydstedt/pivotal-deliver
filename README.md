@@ -16,10 +16,10 @@ deliver.checkAndDeliver(function(err) {
 });
 ```
 
-Can also be run from the command line: 
+Can also be run from the command line (install -g if you want it globally): 
 
 ```bash
-  Usage: index.js [options]
+  Usage: pivotal-tracker [options]
 
   Options:
 
